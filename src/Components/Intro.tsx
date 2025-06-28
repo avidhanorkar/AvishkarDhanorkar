@@ -2,7 +2,7 @@ import { File, Github, Instagram, Linkedin, Twitter } from "lucide-react"
 
 const Intro = () => {
     return (
-        <div className="flex flex-col text-white gap-5 w-screen lg:w-[45vw] lg:px-0 md:px-10 md:px-10 px-5">
+        <div className="flex flex-col text-white gap-5 w-screen lg:w-[45vw] lg:px-0 md:px-10  px-5">
             <div className="flex lg:flex-row flex-col-reverse gap-5 justify-between  ">
                 <div className="flex gap-1 flex-col">
                     <img src="/ME.jpg" className="h-52 rounded-lg w-fit" alt="" />
