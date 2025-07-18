@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='flex gap-5 text-gray-400'>
                 <a href="https://www.github.com/avidhanorkar"><Github className="cursor-pointer" /></a>
                     <a href="https://www.linkedin.com/in/avishkar23"><Linkedin className="cursor-pointer" /></a>
-                    <a href="https://www.instagram.com/this.avishkar"><Instagram className="cursor-pointer" /></a>
+                    <a href="https://www.instagram.com/avi.dhanorkar"><Instagram className="cursor-pointer" /></a>
                     <a href="https://www.github.com/avidhanorkar"><File className="cursor-pointer" /></a>
             </div>
         </div>

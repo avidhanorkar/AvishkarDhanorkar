@@ -30,7 +30,7 @@ const Project = () => {
       "description": "An AI-powered resume builder with ATS scoring, skill gap analysis, and real-time editing. It’s like your career got a dev team.",
       "technologies": ["ReactJS", "Express.js", "MongoDB", "Clerk", "TailwindCSS", "OpenAI"],
     //   "link": "https://resumecraft.ai", 
-    //   "github": "https://github.com/avidhanorkar/ResumeCraft"
+      "github": "https://github.com/avidhanorkar/ResumeCraft"
     }
   ]
 }
