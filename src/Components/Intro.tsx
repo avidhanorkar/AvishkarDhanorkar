@@ -14,7 +14,7 @@ const Intro = () => {
                 <div className="flex flex-row gap-10 justify-around">
                     <a href="https://www.github.com/avidhanorkar"><Github className="cursor-pointer" /></a>
                     <a href="https://www.linkedin.com/in/avishkar23"><Linkedin className="cursor-pointer" /></a>
-                    <a href="https://www.instagram.com/this.avishkar"><Instagram className="cursor-pointer" /></a>
+                    <a href="https://www.instagram.com/avi.dhanorkar"><Instagram className="cursor-pointer" /></a>
                     <a href="https://x.com/avidhanorkar23"><Twitter className="cursor-pointer" /></a>
                     <a href="https://drive.google.com/file/d/17v3Pd726wl2IsQwS76ekmdJtb4Vhon7H/view?usp=drive_link"><File className="cursor-pointer" /></a>
                 </div>
