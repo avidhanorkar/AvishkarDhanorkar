@@ -4,7 +4,7 @@ const Skills = () => {
         techStack: {
             languages: ["JavaScript", "TypeScript", "Java", "Rust"],
             frontend: ["ReactJS", "TailwindCSS"],
-            backend: ["Node.js", "Express.js", "Spring Boot (learning)", "TypeScript", "Rust (learning)"],
+            backend: ["Node.js", "Express.js", "Spring Boot", "TypeScript", "Rust"],
             database: ["MongoDB", "PostgreSQL"],
             tools: ["Git", "GitHub", "Postman", "VS Code"]
         }
