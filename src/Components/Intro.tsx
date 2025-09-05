@@ -5,7 +5,7 @@ const Intro = () => {
         <div className="flex flex-col text-white gap-5 w-screen lg:w-[45vw] lg:px-0 md:px-10  px-5">
             <div className="flex lg:flex-row flex-col-reverse gap-5 justify-between  ">
                 <div className="flex gap-1 flex-col">
-                    <img src="/ME.jpg" className="h-52 rounded-lg w-fit" alt="" />
+                    <img src="https://res.cloudinary.com/drn8ou2tw/image/upload/v1757096178/c3637d42-f3fa-4879-8088-5e8d3d46b8ca.png" className="h-52 rounded-lg w-fit" alt="" />
                     <div className="flex flex-row gap-2 items-center text-white ">
                         <div className="bg-green-500 h-2 w-2 rounded-full"></div> 
                         <p className="font-semibold">Open to Work</p>
