@@ -11,7 +11,7 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ name, description, technologies, github, link }) => {
     return (
-        <div className='bg-[#1a1a1a] rounded-lg p-5 flex flex-col h-fit gap-5'>
+        <div className='bg-[#020617] rounded-lg p-5 flex flex-col h-fit gap-5'>
             <div>
                 <div className='flex w-full justify-between'>
                     <p className='text-2xl font-thin font-mono'>{name}</p>
@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({ name, description, technologies, github, li
             </div>
             <div className='flex flex-row gap-2 flex-wrap'>
                 {technologies.map((tech, index) => (
-                    <div className='px-2 py-1 rounded-lg bg-[#242424] flex flex-wrap hover:bg-[#1a1a1a]' key={index}>
+                    <div className='px-2 py-1 rounded-lg bg-[#121030] flex flex-wrap hover:bg-[#020617]' key={index}>
                         <p className='text-white text-sm'>{tech}</p>
                     </div>
                 ))}

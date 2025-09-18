@@ -39,7 +39,7 @@ const Project = () => {
     return (
         <div className="text-white flex flex-col w-screen lg:w-[45vw] gap-5 md:px-10 px-5 lg:px-0">
             <div>
-                <p className="text-4xl font-thin font-mon">Projects</p>
+                <p className="text-4xl font-thin font-mono">Projects</p>
                 <p className="text-gray-400">🚀 turning caffeine into code: here are some of the things I’ve built (and still didn’t break… much).</p>
             </div>
             <div className="flex flex-col w-full gap-3">
