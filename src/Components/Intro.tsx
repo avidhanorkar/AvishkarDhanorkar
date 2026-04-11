@@ -5,23 +5,23 @@ const Intro = () => {
         <div className="flex flex-col text-white gap-5 w-screen lg:w-[45vw] lg:px-0 md:px-10  px-5">
             <div className="flex lg:flex-row flex-col-reverse gap-5 justify-between  ">
                 <div className="flex gap-1 flex-col">
-                    <img src="https://ik.imagekit.io/wcttbt3fqz/Portfolio/ME1.jpg?updatedAt=1757172982628" className="h-52 rounded-lg w-fit" alt="" />
+                    <img src="https://ik.imagekit.io/wcttbt3fqz/Portfolio/ME1.jpg?updatedAt=1757172982628" className="h-52 rounded-lg w-fit" alt="Avishkar Dhanorkar - Full Stack Developer" />
                     <div className="flex flex-row gap-2 items-center text-white ">
                         <div className="bg-green-500 h-2 w-2 rounded-full"></div> 
                         <p className="font-semibold">Open to Work</p>
                     </div>
                 </div>
                 <div className="flex flex-row gap-10 justify-around">
-                    <a href="https://www.github.com/avidhanorkar"><Github className="cursor-pointer" /></a>
-                    <a href="https://www.linkedin.com/in/avishkar23"><Linkedin className="cursor-pointer" /></a>
-                    <a href="https://www.instagram.com/avi.dhanorkar"><Instagram className="cursor-pointer" /></a>
-                    <a href="https://x.com/avidhanorkar23"><Twitter className="cursor-pointer" /></a>
-                    <a href="https://drive.google.com/file/d/17v3Pd726wl2IsQwS76ekmdJtb4Vhon7H/view?usp=drive_link"><File className="cursor-pointer" /></a>
+                    <a href="https://www.github.com/avidhanorkar" aria-label="GitHub Profile"><Github className="cursor-pointer" aria-hidden="true" /></a>
+                    <a href="https://www.linkedin.com/in/avishkar23" aria-label="LinkedIn Profile"><Linkedin className="cursor-pointer" aria-hidden="true" /></a>
+                    <a href="https://www.instagram.com/avi.dhanorkar" aria-label="Instagram Profile"><Instagram className="cursor-pointer" aria-hidden="true" /></a>
+                    <a href="https://x.com/avidhanorkar23" aria-label="Twitter Profile"><Twitter className="cursor-pointer" aria-hidden="true" /></a>
+                    <a href="https://drive.google.com/file/d/17v3Pd726wl2IsQwS76ekmdJtb4Vhon7H/view?usp=drive_link" aria-label="Resume/CV Download"><File className="cursor-pointer" aria-hidden="true" /></a>
                 </div>
             </div>
 
             <div>
-                <p className="text-4xl font-thin font-mono">Hi, I'm Avishkar</p>
+                <h1 className="text-4xl font-thin font-mono">Hi, I'm Avishkar</h1>
                 <p className="text-gray-400 font-[500]">21, Pune | Full Stack Developer </p>
 
                 <div className="summary mt-2">

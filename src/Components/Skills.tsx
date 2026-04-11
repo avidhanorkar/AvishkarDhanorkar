@@ -14,7 +14,7 @@ const Skills = () => {
 
     return (
         <div className="text-white lg:px-0 md:px-10 px-5">
-            <p className="text-4xl font-thin font-mono mb-2">My Tech Stack</p>
+            <h2 className="text-4xl font-thin font-mono mb-2">My Tech Stack</h2>
             <p className="text-gray-400 mb-6">💻 I’m a self-taught developer with a passion for building things. Here’s what I know.</p>
 
             <div className="flex flex-col gap-6">

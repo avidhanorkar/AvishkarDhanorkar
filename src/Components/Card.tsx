@@ -14,10 +14,10 @@ const Card: React.FC<CardProps> = ({ name, description, technologies, github, li
         <div className='bg-[#020617] rounded-lg p-5 flex flex-col h-fit gap-5'>
             <div>
                 <div className='flex w-full justify-between'>
-                    <p className='text-2xl font-thin font-mono'>{name}</p>
+                    <h3 className='text-2xl font-thin font-mono'>{name}</h3>
                     <div className='flex gap-5'>
-                        {github ? <a href={github}><Github className='text-gray-400 text-xl cursor-pointer' /></a> : null}
-                        {link ? <a href={link}><Link className='text-gray-400 text-xl cursor-pointer' /> </a>: null}
+                        {github ? <a href={github} aria-label={`View ${name} on GitHub`}><Github className='text-gray-400 text-xl cursor-pointer' aria-hidden="true" /></a> : null}
+                        {link ? <a href={link} aria-label={`Visit ${name} website`}><Link className='text-gray-400 text-xl cursor-pointer' aria-hidden="true" /> </a>: null}
                     </div>
                 </div>
                 <p className='text-gray-400'>{description}</p>
