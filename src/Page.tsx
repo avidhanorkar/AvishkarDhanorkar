@@ -1,3 +1,4 @@
+import Experience from './Components/Experience'
 import Footer from './Components/Footer'
 import Intro from './Components/Intro'
 import Project from './Components/Project'
@@ -7,6 +8,7 @@ const Page = () => {
   return (
     <div className=' flex flex-col gap-20 z-10 relative'>
         <Intro />
+        <Experience />
         <Project />
         <Skills />
         <Footer />
