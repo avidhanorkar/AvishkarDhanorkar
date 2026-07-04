@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { ExternalLink, Github } from "lucide-react";
 import { motion, useScroll, useTransform } from "motion/react";
 
